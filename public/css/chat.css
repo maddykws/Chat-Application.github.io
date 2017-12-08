@@ -1,0 +1,131 @@
+#panel {
+    height: 600px;
+    overflow: auto;
+    max-height: 400px;
+}
+
+#emoji, #sound, #desktop, #Redtext, #synthesis, #recognition, #inline {
+    margin-bottom: 12px;
+}
+
+#icon-settings, #icon-audio {
+    color: Red;
+    top: -9px;
+    left: -4.5px;
+}
+
+#audio {
+    margin-bottom: 12px;
+}
+
+#typing {
+    margin-right: 10px;
+    font-style: oblique;
+    font-size: 20pt;
+}
+
+.mdi {
+    font-size: 20px;
+}
+
+.name {
+    float: left;
+}
+
+.namelink {
+    color: inherit;
+}
+
+.self {
+    color: #eb0000;
+}
+
+.helper {
+    color: #0089eb;
+}
+
+.moderator {
+    color: #b800eb;
+}
+
+.administrator {
+    color: #eb1700;
+}
+
+.msg {
+    word-wrap: break-word;
+    word-break: break-all;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.msg a img {
+    max-width: 650px;
+}
+
+.timestamp {
+    float:inline-start;
+    font-size: 10pt;
+    font-weight: Bold;
+    margin-left: 15px;
+	background-color: powderblue;
+}
+
+.delete {
+    float: right;
+    font-size: 8pt;
+    font-weight: bold;
+    display: bottom;
+}
+
+.pm , .mention {
+    color: #eb9d00;
+}
+
+.emote span:nth-child(4) {
+    font-style: bold;
+}
+
+.global, .kick, .role, .ban {
+    color: #eb0000!important;
+}
+
+.info {
+    color: #55aef6;
+}
+
+.light {
+    color: #616161;
+}
+
+.message {
+    color: #2b2b2b;
+    margin-top: 3px;
+}
+
+.spin {
+    -webkit-animation: spin 1500ms infinite linear;
+    animation: spin 1500ms infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
