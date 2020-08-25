@@ -16,6 +16,6 @@
     "serve-favicon": "~2.2.0",
     "sockjs": "~0.3.15",
     "chalk": "~1.0.0",
-    "underscore.string": "~3.0.3"
+    "underscore.string": "~3.3.5"
   }
 }
